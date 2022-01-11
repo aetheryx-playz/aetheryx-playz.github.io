@@ -178,7 +178,7 @@
     }
 }
 
-@import url('https://fonts.googleapis.com/css?family=Puritan:300,400,600,700&amp;lang=en');
+@import url('https://fonts.googleapis.com/css?family=Puritan');
 body
 {
   background-color: #171717
@@ -187,9 +187,13 @@ body
 
 h1
 {
-   font-family: Puritan;
-}
-
+  font-family: Puritan;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+  }
 
 
 
