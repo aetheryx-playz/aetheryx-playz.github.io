@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Puritan:300,400,600,700&amp;lang=en" />
 *
 {
     box-sizing: border-box;
@@ -179,6 +178,7 @@
     }
 }
 
+@import url('https://fonts.googleapis.com/css?family=Puritan:300,400,600,700&amp;lang=en');
 body
 {
   background-color: #171717
@@ -187,7 +187,7 @@ body
 
 h1
 {
-
+   font-family: Puritan;
 }
 
 
