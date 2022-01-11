@@ -187,13 +187,23 @@ body
 
 h1
 {
-  font-family: 'Cantora One', sans-serif;
+  font-family: OCR A Std, monospace;
   font-size: 24px;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
   line-height: 26.4px;
   }
+
+p
+{
+  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 24.4px;
+}
 
 
 
