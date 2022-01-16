@@ -232,7 +232,6 @@ body{
     min-height: 100vh;
 }
 
-/* === Main Content CSS ===*/
 .wrapper{
     padding:50px 25px 0;
     max-width:668px;
@@ -396,5 +395,11 @@ body{
 }
 
 .dropdown-content a:hover {background-color: #2b2b2b}
+
+.dropdown:hover
+  {
+      color: #9518fc;
+      transition: all 0.3s ease;
+  }
 
 .show {display:block;}
