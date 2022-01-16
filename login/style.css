@@ -366,11 +366,6 @@ body{
   padding: 16px;
   font-size: 16px;
   border: none;
-  cursor: pointer;
-}
-
-.dropbtn:hover, .dropbtn:focus {
-  background-color: #1c1c1c;
 }
 
 .dropdown {
@@ -394,12 +389,12 @@ body{
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #2b2b2b}
+.dropdown-content a:hover {background-color: #2b2b2b;}
 
 .dropbtn:hover
-  {
+{
       color: #9518fc;
       transition: all 0.3s ease;
   }
 
-.show {display:block;}
+.dropdown:hover .dropdown-content {display: block;}
