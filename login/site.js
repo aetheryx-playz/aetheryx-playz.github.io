@@ -17,7 +17,7 @@ line function signOut() {
 
 
   //login
-   let btnLogin = document.getElementById("login");
+  let btnLogin = document.getElementById("login");
    let btnSignUp = document.getElementById("signup");
 
    let signIn = document.querySelector(".signin");
@@ -31,6 +31,9 @@ line function signOut() {
    btnSignUp.onclick = function(){
       signIn.classList.remove("active");
       signUp.classList.remove("inActive");
+  }
+
+
   }
 
 

@@ -224,6 +224,15 @@ p
     --light-gray:#E4E8EE;
 }
 
+body{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* === Main Content CSS ===*/
 .wrapper{
     padding:50px 25px 0;
     max-width:668px;
@@ -349,6 +358,8 @@ p
         line-height:25px;
     }
 }
+
+
 
 .dropbtn {
   background-color: #1c1c1c;
