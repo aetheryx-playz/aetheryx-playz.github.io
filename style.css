@@ -265,6 +265,7 @@ p
 
 .footer {
 position: fixed;
+width: 100%
 background-color: #1c1c1c;
 color: white;
 text-align: center;
