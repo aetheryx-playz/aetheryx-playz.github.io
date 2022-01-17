@@ -262,3 +262,14 @@ p
   }
 
 .dropdown:hover .dropdown-content {display: block;}
+
+.footer {
+position: fixed;
+left: 10px;
+bottom: 5px;
+right: 10px;
+width: 95%;
+background-color: #171717;
+color: white;
+text-align: center;
+}
