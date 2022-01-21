@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/baed47e8da187c6a146de4bca7bef8af?family=Odin+Rounded);
+@import url(https://db.onlinewebfonts.com/c/baed47e8da187c6a146de4bca7bef8af?family=Odin+Rounded);
 
 * {
     box-sizing: border-box;
@@ -8,7 +8,7 @@
     scroll-behavior: smooth;
 }
 
-@font-face {font-family: "Odin Rounded"; src: url("//db.onlinewebfonts.com/t/baed47e8da187c6a146de4bca7bef8af.eot"); src: url("//db.onlinewebfonts.com/t/baed47e8da187c6a146de4bca7bef8af.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/baed47e8da187c6a146de4bca7bef8af.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/baed47e8da187c6a146de4bca7bef8af.woff") format("woff"), url("//db.onlinewebfonts.com/t/baed47e8da187c6a146de4bca7bef8af.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/baed47e8da187c6a146de4bca7bef8af.svg#Odin Rounded") format("svg"); }
+@font-face {font-family: "Odin Rounded"; src: url("https://db.onlinewebfonts.com/t/baed47e8da187c6a146de4bca7bef8af.eot"); src: url("//db.onlinewebfonts.com/t/baed47e8da187c6a146de4bca7bef8af.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/baed47e8da187c6a146de4bca7bef8af.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/baed47e8da187c6a146de4bca7bef8af.woff") format("woff"), url("//db.onlinewebfonts.com/t/baed47e8da187c6a146de4bca7bef8af.ttf") format("truetype"), url("https://db.onlinewebfonts.com/t/baed47e8da187c6a146de4bca7bef8af.svg#Odin Rounded") format("svg"); }
 
 .navbar
 {
