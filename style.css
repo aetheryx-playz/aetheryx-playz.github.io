@@ -8,8 +8,8 @@
 
 :root {
   --background-primary: var(#dee4e7);
-  --background-accent: var(#f5f5f5);
-  --background-secondary: var(#ffffff);
+  --background-accent: var(#D0E0E3);
+  --background-secondary: var(#f5f5f5);
   --text-primary: var(#222222);
   --accent-color: var(#1918fc);
 }
