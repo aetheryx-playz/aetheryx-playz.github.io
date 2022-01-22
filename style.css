@@ -7,19 +7,19 @@
 }
 
 :root {
-  --background-primary: var(--background-primary--light);
-  --background-secondary: var(--background-secondary--light);
-  --background-accent: var(--primary-color);
-  --text-primary: var(--text-primary--light);
-  --text-secondary: var(--text-secondary-light);
+  --background-primary: var(#dee4e7);
+  --background-accent: var(#ffffff);
+  --text-primary: var(#222222);
+  --text-secondary: var(#222222);
+  --accent-color: var(#1918fc);
 }
 
 :root.theme--dark {
-  --background-primary: var(--background-primary--dark);
-  --background-secondary: var(--background-secondary--dark);
-  --background-accent: var(--background-secondary);
-  --text-primary: var(--text-primary--dark);
-  --text-secondary: var(--text-secondary-dark);
+  --background-primary: var(#171717);
+  --background-accent: var(#1c1c1c);
+  --text-primary: var(#ffffff);
+  --text-secondary: var(#ffffff);
+  --accent-color: var(#1918fc);
 }
 
 .navbar
@@ -209,7 +209,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cantora+One');
 body
 {
-  background-color: #171717
+  background-color: var(--background-primary)
 
 }
 
