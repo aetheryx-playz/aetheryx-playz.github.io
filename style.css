@@ -10,7 +10,6 @@
   --background-primary: var(#dee4e7);
   --background-accent: var(#ffffff);
   --text-primary: var(#222222);
-  --text-secondary: var(#222222);
   --accent-color: var(#1918fc);
 }
 
@@ -18,7 +17,6 @@
   --background-primary: var(#171717);
   --background-accent: var(#1c1c1c);
   --text-primary: var(#ffffff);
-  --text-secondary: var(#ffffff);
   --accent-color: var(#1918fc);
 }
 
@@ -221,7 +219,7 @@ h1
   font-variant: normal;
   font-weight: 700;
   line-height: 26.4px;
-  color: white;
+  color: var(--text-primary);
   }
 
 p
@@ -232,7 +230,7 @@ p
   font-variant: normal;
   font-weight: 700;
   line-height: 24.4px;
-  color: white;
+  color: var(--text-primary);
 }
 
 
@@ -246,8 +244,8 @@ p
 }
 
 .dropbtn {
-  background-color: #1c1c1c;
-  color: white;
+  background-color: var(--background-accent);
+  color: var(--text-primary);
   padding: 16px;
   font-size: 16px;
   border: none;
@@ -261,14 +259,14 @@ p
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #1c1c1c;
+  background-color: var(--background-accent);
   min-width: 151px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  color: white;
+  color: var(--text-primary);
   padding: 20px 10px;
   text-decoration: none;
   display: block;
