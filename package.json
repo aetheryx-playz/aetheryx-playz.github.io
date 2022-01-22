@@ -1,0 +1,22 @@
+{
+  "name": "aetheryx-playz-website",
+  "description": "Aetheryx-Playz's Website",
+  "version": "0.1.5",
+  "main": "index.html",
+  "dependencies": {},
+}
+  "scripts": {
+    "serve": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Aetheryx-Playz/aetheryx-playz.github.io.git"
+  },
+  "author": "Aetheryx-Playz",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Aetheryx-Playx/aetheryx-playz.github.io"
+  },
+  "homepage": "https://aetheryx-playz.co.uk"
+}
