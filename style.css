@@ -8,7 +8,8 @@
 
 :root {
   --background-primary: var(#dee4e7);
-  --background-accent: var(#ffffff);
+  --background-accent: var(#f5f5f5);
+  --background-secondary: var(#ffffff);
   --text-primary: var(#222222);
   --accent-color: var(#1918fc);
 }
@@ -16,8 +17,9 @@
 :root.theme--dark {
   --background-primary: var(#171717);
   --background-accent: var(#1c1c1c);
-  --text-primary: var(#ffffff);
-  --accent-color: var(#1918fc);
+  --background-secondary: var(#2b2b2b);
+  --text-primary: var(#f5f5f5);
+  --accent-color: var(#9518fc);
 }
 
 .navbar
@@ -272,11 +274,11 @@ p
   display: block;
 }
 
-.dropdown-content a:hover {background-color: #2b2b2b;}
+.dropdown-content a:hover {background-color: var(background-secondary);}
 
 .dropbtn:hover
 {
-      color: #9518fc;
+      color: var(-accent-color);
       transition: all 0.3s ease;
   }
 
@@ -288,7 +290,7 @@ left: 10px;
 bottom: 5px;
 right: 10px;
 width: 95%;
-background-color: #1c1c1c;
-color: white;
+background-color: var(--background-accent);
+color: var(--text-primary);
 text-align: center;
 }
