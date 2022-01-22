@@ -67,7 +67,7 @@
 
 .navbar__links
 {
-    color: #fff;
+    color: var(--text-primary);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -120,7 +120,7 @@
 
     .navbar__menu.active
     {
-        background: #131313;
+        background: var(--background-accent);
         top: 100%;
         opacity: 1;
         transition: all 0.5s ease;
