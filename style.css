@@ -208,7 +208,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Cantora+One');
-.main
+body
 {
   background-color: var(--background-primary)
 
