@@ -12,3 +12,12 @@ function darkmodeToggle() {
     localStorage.setItem("mode", "light");
   }
 }
+
+if (localStorage.getItem("visited") == "true") {
+  if (localStorage.getItem("mode") == "light") {
+    root.classList.remove("theme--dark");
+  }
+} else {
+  localStorage.setItem("visited", "true");
+  localStorage.setItem("mode", "dark");
+}
