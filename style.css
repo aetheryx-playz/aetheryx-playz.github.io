@@ -6,14 +6,25 @@
     scroll-behavior: smooth;
 }
 
-.bodylightmode
-{
+:root {
+  --background-primary: var(--background-primary--light);
+  --background-secondary: var(--background-secondary--light);
+  --background-accent: var(--primary-color);
+  --text-primary: var(--text-primary--light);
+  --text-secondary: var(--text-secondary-light);
+}
 
+:root.theme--dark {
+  --background-primary: var(--background-primary--dark);
+  --background-secondary: var(--background-secondary--dark);
+  --background-accent: var(--background-secondary);
+  --text-primary: var(--text-primary--dark);
+  --text-secondary: var(--text-secondary-dark);
 }
 
 .navbar
 {
-    background: #1c1c1c;
+    background: var(--background-accent);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -79,7 +90,7 @@
 
 .navbar__links:hover
 {
-    color: #9518fc;
+    color: var(--accent-color);
     transition: all 0.3s ease;
 }
 
@@ -180,6 +191,19 @@
     {
         transform: translateY(-8px) rotate(-45deg);
     }
+
+    .feather {
+          font-size: 25px;
+          padding-right: 20px;
+          padding-left: 20px;
+          transition: 0.4s;
+        }
+
+    .feather:hover {
+          font-size: 27px;
+          color: var(--accent-color);
+          transition: 0.4s;
+        }
 }
 
 @import url('https://fonts.googleapis.com/css?family=Cantora+One');
@@ -219,13 +243,6 @@ p
     padding:0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-}
-
-:root{
-    --primary-color:#3525D3;
-    --white-color:#fff;
-    --black-color:#3C4A57;
-    --light-gray:#E4E8EE;
 }
 
 .dropbtn {
