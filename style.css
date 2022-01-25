@@ -7,7 +7,7 @@
 }
 
 :root {
-  --background-primary: #ffffff;
+  --background-primary: #eeeeee;
   --background-accent: ##ecf0f1;
   --background-secondary: #f5f5f5;
   --text-primary: #222222;
@@ -208,7 +208,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css?family=Cantora+One');
-body
+.main
 {
   background-color: var(--background-primary)
 }
